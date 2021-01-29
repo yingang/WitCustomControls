@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitCustomControls", "WitCustomControls\WitCustomControls.csproj", "{6B75556C-679E-494A-B4A8-C47ED7DE093C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WitCustomControlSetup", "WitCustomControlSetup\WitCustomControlSetup.vdproj", "{14D77617-41AA-4CC7-B4AD-6AB5E2221E32}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs01.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WitCustomControlSetup\\WitCustomControlSetup.vdproj
+		SccProjectName1 = WitCustomControlSetup
+		SccLocalPath1 = WitCustomControlSetup
+		SccProjectUniqueName2 = WitCustomControls\\WitCustomControls.csproj
+		SccProjectName2 = WitCustomControls
+		SccLocalPath2 = WitCustomControls
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B75556C-679E-494A-B4A8-C47ED7DE093C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B75556C-679E-494A-B4A8-C47ED7DE093C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B75556C-679E-494A-B4A8-C47ED7DE093C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B75556C-679E-494A-B4A8-C47ED7DE093C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D77617-41AA-4CC7-B4AD-6AB5E2221E32}.Debug|Any CPU.ActiveCfg = Debug
+		{14D77617-41AA-4CC7-B4AD-6AB5E2221E32}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

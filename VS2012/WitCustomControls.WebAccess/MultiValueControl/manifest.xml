@@ -1,0 +1,7 @@
+<WebAccess version="11.0">
+  <plugin name="Multi Value Custom Control" vendor="CodePlex.WitCustomControls" moreinfo="http://witcustomcontrols.codeplex.com/" version="1.2.2.0" >
+    <modules>
+      <module namespace="CodePlex.WitCustomControls.MultiValueControl" kind="TFS.WorkItem.CustomControl"/>  
+    </modules>
+  </plugin>
+</WebAccess>
