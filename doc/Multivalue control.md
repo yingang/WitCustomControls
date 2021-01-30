@@ -22,7 +22,7 @@ In order to use this control, two files must be present in the deployment folder
 * MultiValueControl.wicc
 * CodePlex.WitCustomControls.dll
 
-The deployment folder is located at the following location under a default client install: `<ApplicationData`>\Microsoft\Team Foundation\Work Item Tracking\Custom Controls.
+The deployment folder is located at the following location under a default client install: `<ApplicationData>`\Microsoft\Team Foundation\Work Item Tracking\Custom Controls.
 
 ## Schema
 Fields associated with multivalue control should have list of suggested values and each value enclosed in square brackets. For example:

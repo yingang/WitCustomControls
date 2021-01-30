@@ -21,7 +21,7 @@ To make the capture control even more useful, I’ve also implemented an alterna
 ![](Screenshot%20controls_AttachmentsControl.jpg)
 
 ## Schema
-To use the control first create a work item type that contains the image. In essence the only thing that needs to be done is to include a new control in the `<FORM`> section in the work item XML. The following examples shows the syntax for the ScreenShot control and the FileAttachment control respectively:
+To use the control first create a work item type that contains the image. In essence the only thing that needs to be done is to include a new control in the `<FORM>` section in the work item XML. The following examples shows the syntax for the ScreenShot control and the FileAttachment control respectively:
 
     <Control Type="ScreenshotControl" Label="Screenshot:" LabelPosition="Left" />
 
