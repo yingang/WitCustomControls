@@ -20,9 +20,9 @@ There are many functionalities that customers want to have in a work item form, 
 
 ## Implemented Controls
 The following controls are implemented in the current release:
-* Screenshot controls: A control where users can paste screenshots & images.
-* Web browser control: A control to host a web page and pass field values to that webpage.
-* Multivalue control: A control to accept and show multiple values for a field by showing a list of checkboxes.
+* [Screenshot controls](doc/Screenshot%20controls.md): A control where users can paste screenshots & images.
+* [Web browser control](doc/Web%20browser%20control.md): A control to host a web page and pass field values to that webpage.
+* [Multivalue control](doc/Multivalue%20control.md): A control to accept and show multiple values for a field by showing a list of checkboxes.
 
 ## Build Instructions
 ### Visual Studio 2019
