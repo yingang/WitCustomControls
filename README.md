@@ -1,6 +1,14 @@
 # WitCustomControls
 Forked from [CodePlex](https://archive.codeplex.com/?p=witcustomcontrols), then added support for Visual Studio 2019.
 
+- [WitCustomControls](#witcustomcontrols)
+  - [Introduction](#introduction)
+  - [Why this project?](#why-this-project)
+  - [Implemented Controls](#implemented-controls)
+  - [Build Instructions (Visual Studio 2019)](#build-instructions-visual-studio-2019)
+    - [Visual Studio 2019](#visual-studio-2019)
+  - [References](#references)
+
 ## Introduction
 Custom controls is a feature in TFS. It allows customer developed controls to be hosted in work item form. Those controls can implement various business logics or add additional functionality to work with the workitemform. [Here](http://blogs.msdn.com/narend/archive/2006/10/02/How-to-use-Custom-Controls-in-Work-Item-Form.aspx) is the info on how to build custom controls.
 
