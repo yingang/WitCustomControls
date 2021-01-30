@@ -5,7 +5,7 @@ Forked from [CodePlex](https://archive.codeplex.com/?p=witcustomcontrols), then 
   - [Introduction](#introduction)
   - [Why this project?](#why-this-project)
   - [Implemented Controls](#implemented-controls)
-  - [Build Instructions (Visual Studio 2019)](#build-instructions-visual-studio-2019)
+  - [Build Instructions](#build-instructions)
     - [Visual Studio 2019](#visual-studio-2019)
   - [References](#references)
 
@@ -24,7 +24,7 @@ The following controls are implemented in the current release:
 * Web browser control: A control to host a web page and pass field values to that webpage.
 * Multivalue control: A control to accept and show multiple values for a field by showing a list of checkboxes.
 
-## Build Instructions (Visual Studio 2019)
+## Build Instructions
 ### Visual Studio 2019
 * Install [WiX](https://github.com/wixtoolset/wix3)
 * Install Wix Toolset Visual Studio 2019 Extension (from Visual Studio Marketplace)
