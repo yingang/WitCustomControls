@@ -31,11 +31,11 @@ The following controls are implemented in the current release:
 * Install [Visual Studio Team Explorer 2019](https://visualstudio.microsoft.com/zh-hans/downloads/) (Under Visual Studio 2019)
 * Install Microsoft.AspNet.WebPages (using NuGet):
 
-  Install-Package Microsoft.AspNet.WebPages
+  `Install-Package Microsoft.AspNet.WebPages`
 
 * Add reference path of team explorer for the WitCustomControls project:
 
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\
+  `C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\`
 
 ## References
 
