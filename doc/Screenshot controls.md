@@ -40,6 +40,6 @@ In order to use this control, at two files must be present in the deployment fol
 * ScreenshotControl.wicc
 * CodePlex.WitCustomControls.dll
 
-The deployment folder is located at the following location under a default client install: C:\ProgramData\Microsoft\Team Foundation\Work Item Tracking\Custom Controls.
+The deployment folder is located at the following location under a default client install: `C:\ProgramData\Microsoft\Team Foundation\Work Item Tracking\Custom Controls`.
 
 Note in the 2010 release I renamed the control to CaptureAttachmentsControl. because if its has the same name it will override the builtin control. The main reason because the builtin control in 2010 has support for images and you may want to just use the builtin version as they provide similar funtionality. You can drag drop pretty much anything to the attachments control and it will create a file and attach it. You can also copy/paste images. To take a screenshot, hit the PrtScn key then Ctrl+V in the built-in attachments control. 

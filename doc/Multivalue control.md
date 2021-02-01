@@ -22,7 +22,7 @@ In order to use this control, two files must be present in the deployment folder
 * MultiValueControl.wicc
 * CodePlex.WitCustomControls.dll
 
-The deployment folder is located at the following location under a default client install: `<ApplicationData>`\Microsoft\Team Foundation\Work Item Tracking\Custom Controls.
+The deployment folder is located at the following location under a default client install: `<ApplicationData>\Microsoft\Team Foundation\Work Item Tracking\Custom Controls`.
 
 ## Schema
 Fields associated with multivalue control should have list of suggested values and each value enclosed in square brackets. For example:
@@ -39,7 +39,7 @@ Fields associated with multivalue control should have list of suggested values a
 
 Then use MultiValueControl as controltype for that field in Form section, for example: 
 
-    {" <Control Type="MultiValueControl" FieldName="Microsoft.VSTS.Common.Triage" Label="Triag&amp;e:" LabelPosition="Left" /> "}
+  `{" <Control Type="MultiValueControl" FieldName="Microsoft.VSTS.Common.Triage" Label="Triag&amp;e:" LabelPosition="Left" /> "}`
 
 ## Querying
 For quering work item based on MultiValueControl field, the control value is treated as a string. To search for items that has a specific list item selected in the MultiValueContorl use the contains operator and don't forget the square bracket when you enter the value. If you are searching for a specific list item selected and only that item is selected use the = operator. If sreaching for item that has more than one list item selected use multipe 'contains' clauses for that field.

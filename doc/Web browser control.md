@@ -7,7 +7,7 @@ In order to use this control, at two files must be present in the deployment fol
 * WebBrowserControl.wicc
 * CodePlex.WitCustomControls.dll
 
-The deployment folder is located at the following location under a default client install: C:\ProgramData\Microsoft\Team Foundation\Work Item Tracking\Custom Controls.
+The deployment folder is located at the following location under a default client install: `C:\ProgramData\Microsoft\Team Foundation\Work Item Tracking\Custom Controls`.
 
 ## Schema
 Below is an example of the "Control" entry which should be added to your work item schema to include this control on your form:
