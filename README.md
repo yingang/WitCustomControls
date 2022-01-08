@@ -1,12 +1,11 @@
 # WitCustomControls
-Forked from [CodePlex](https://archive.codeplex.com/?p=witcustomcontrols), then added support for Visual Studio 2019.
+Forked from [CodePlex](https://archive.codeplex.com/?p=witcustomcontrols), then added support for Visual Studio 2019 and later.
 
 - [WitCustomControls](#witcustomcontrols)
   - [Introduction](#introduction)
   - [Why this project?](#why-this-project)
   - [Implemented Controls](#implemented-controls)
   - [Build Instructions](#build-instructions)
-    - [Visual Studio 2019](#visual-studio-2019)
   - [References](#references)
 
 ## Introduction
@@ -25,17 +24,19 @@ The following controls are implemented in the current release:
 * [Multivalue control](doc/Multivalue%20control.md): A control to accept and show multiple values for a field by showing a list of checkboxes.
 
 ## Build Instructions
-### Visual Studio 2019
+
 * Install [WiX](https://github.com/wixtoolset/wix3)
-* Install Wix Toolset Visual Studio 2019 Extension (from Visual Studio Marketplace)
-* Install [Visual Studio Team Explorer 2019](https://visualstudio.microsoft.com/zh-hans/downloads/) (Under Visual Studio 2019)
+* Install Wix Toolset Visual Studio Extension (From Visual Studio Marketplace, same version with VS, like 2019, 2022, etc.)
+* Install [Visual Studio Team Explorer](https://visualstudio.microsoft.com/zh-hans/downloads/) (Same version with VS also)
 * Install Microsoft.AspNet.WebPages (using NuGet):
 
   `Install-Package Microsoft.AspNet.WebPages`
 
 * Add reference path of team explorer for the WitCustomControls project:
 
-  `C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\`
+  VS2019: `C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\`
+  
+  VS2022: `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\`
 
 ## References
 
