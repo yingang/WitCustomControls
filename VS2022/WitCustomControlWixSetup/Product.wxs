@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-  <Product Id="*" Name="WitCustomControl 2019" Language="1033" Version="1.3.1.0" Manufacturer="Codeplex" UpgradeCode="9b702c4d-c294-4117-a599-01634ea3a0e8">
+  <Product Id="*" Name="WitCustomControl 2022" Language="1033" Version="1.3.1.0" Manufacturer="Codeplex" UpgradeCode="9b702c4d-c294-4117-a599-01634ea3a0e8">
     <Package Id="*" InstallerVersion="200" Compressed="yes" />
     <Media Id="1" Cabinet="WitCustomControls.cab" EmbedCab="yes" />
     <UIRef Id="WixUI_Minimal" />
