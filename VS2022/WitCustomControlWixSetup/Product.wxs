@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="WitCustomControl 2019" Language="1033" Version="1.3.1.0" Manufacturer="Codeplex" UpgradeCode="9b702c4d-c294-4117-a599-01634ea3a0e8">
+    <Package Id="*" InstallerVersion="200" Compressed="yes" />
+    <Media Id="1" Cabinet="WitCustomControls.cab" EmbedCab="yes" />
+    <UIRef Id="WixUI_Minimal" />
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="CommonAppDataFolder">
+        <Directory Id="Microsoft" Name="Microsoft">
+          <Directory Id="TeamFoundation" Name="Team Foundation">
+            <Directory Id="WorkItemTracking" Name="Work Item Tracking">
+              <Directory Id="CustomControls" Name="Custom Controls">
+                <Directory Id="INSTALLDIR" Name="17.0" >
+                  <Component Id="WitCustomControls" Guid="56DFF47B-8B33-4F6A-8D89-D13569BD0FE5">
+                    <File Id="System.Web.Helpers" Name="System.Web.Helpers.dll" Source="$(var.WitCustomControls.TargetDir)\System.Web.Helpers.dll" Vital="yes" />
+                    <File Id="WitCustomControls" Name="CodePlex.WitCustomControls.dll" Source="$(var.WitCustomControls.TargetDir)\CodePlex.WitCustomControls.dll" Vital="yes" />
+                    <File Id="CaptureAttachmentsControl" Name="CaptureAttachmentsControl.wicc" Source="$(var.WitCustomControls.TargetDir)\CaptureAttachmentsControl.wicc" Vital="yes" />
+                    <File Id="MultiValueControl" Name="MultiValueControl.wicc" Source="$(var.WitCustomControls.TargetDir)\MultiValueControl.wicc" Vital="yes" />
+                    <File Id="ScreenshotControl" Name="ScreenshotControl.wicc" Source="$(var.WitCustomControls.TargetDir)\ScreenshotControl.wicc" Vital="yes" />
+                    <File Id="WebBrowserControl" Name="WebBrowserControl.wicc" Source="$(var.WitCustomControls.TargetDir)\WebBrowserControl.wicc" Vital="yes" />
+                  </Component>
+                </Directory>
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Feature Id="Complete" Level="1">
+      <ComponentRef Id="WitCustomControls" />
+    </Feature>
+  </Product>
+</Wix>
