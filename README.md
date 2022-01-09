@@ -26,9 +26,9 @@ The following controls are implemented in the current release:
 ## Build Instructions
 
 * Install [WiX](https://github.com/wixtoolset/wix3)
-* Install Wix Toolset Visual Studio Extension (From Visual Studio Marketplace, same version with VS, like 2019, 2022, etc.)
+* Install [Wix Toolset Visual Studio Extension](https://github.com/wixtoolset/VisualStudioExtension) (From [Visual Studio Marketplace](https://marketplace.visualstudio.com/), same version with VS, like 2019, 2022, etc.)
 * Install [Visual Studio Team Explorer](https://visualstudio.microsoft.com/zh-hans/downloads/) (Same version with VS also)
-* Install Microsoft.AspNet.WebPages (using NuGet):
+* Install Microsoft.AspNet.WebPages (using [NuGet](https://www.nuget.org/)):
 
   `Install-Package Microsoft.AspNet.WebPages`
 
