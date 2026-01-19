@@ -26,8 +26,8 @@ The following controls are implemented in the current release:
 ## Build Instructions
 
 * Install [WiX](https://github.com/wixtoolset/wix3)
-* Install [Wix Toolset Visual Studio Extension](https://github.com/wixtoolset/VisualStudioExtension) (From [Visual Studio Marketplace](https://marketplace.visualstudio.com/), same version with VS, like 2019, 2022, etc.)
-* Install [Visual Studio Team Explorer](https://visualstudio.microsoft.com/zh-hans/downloads/) (Same version with VS also)
+* Install [Wix Toolset Visual Studio Extension](https://github.com/wixtoolset/VisualStudioExtension) (From [Visual Studio Marketplace](https://marketplace.visualstudio.com/), the version of VS to build does not need to be same with the version of VS to be supported)
+* Install [Visual Studio Team Explorer](https://visualstudio.microsoft.com/zh-hans/downloads/) (the version to be supported)
 * Install Microsoft.AspNet.WebPages (using [NuGet](https://www.nuget.org/)):
 
   `Install-Package Microsoft.AspNet.WebPages`
@@ -37,6 +37,8 @@ The following controls are implemented in the current release:
   VS2019: `C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\`
   
   VS2022: `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\`
+
+  VS2026: `C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer`
 
 ## References
 
